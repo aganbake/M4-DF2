@@ -65,7 +65,7 @@ const resultado = async () => {
       table2.appendChild(tr);
     });
   } catch (error) {
-    alert("error");
+    alert("Usuario no existe");
     document.getElementById("resultados").innerHTML = "Usuario No Existe";
   }
 };
